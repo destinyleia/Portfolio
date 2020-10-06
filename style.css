@@ -1,0 +1,190 @@
+/* Mobil view */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url(https://media4.giphy.com/media/3og0ISzBpn0nNJE3Ac/giphy.gif);
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: white;
+}
+
+.icons-social-media-header {
+    position: absolute;
+    display: flex;
+    top: 50px;
+    right: 40px;
+    
+}
+
+.header-all {
+    position: relative;
+    text-align: left;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 40px;
+    flex-direction: row;
+}
+
+.portfolio {
+    font-size: x-small;
+    text-align: left;
+    top: 50p;
+}
+
+.name {
+    font-size: x-small;
+    text-align: left;
+    font-weight: bold;
+}
+
+.job-title {
+    position: relative;
+    text-align: left;
+    display: flex;
+    padding-bottom: 120px;
+    padding-left: 40px;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.job-title h2 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.job-title h3 {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0px;
+}
+
+.picture-of-dess {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    right: 40px;
+    top: 350px;
+    position: absolute;
+}
+
+.about-me-section {
+    display: flex;
+    padding: 40px;
+    background-color: #eeecda;
+    justify-content: space-around;
+}
+
+.about-me-section p {
+    text-align: left;
+    letter-spacing: 0px;
+    
+}
+
+.red-thing {
+    display: flex;
+  align-items: center;
+    shape-outside: inset(50%);
+}
+
+.long {
+    width: 35px;
+    height: 3px;
+    border-radius: 10px;
+    background: #f08a5d;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background: #f08a5d;
+    border-radius: 50%;
+}
+
+.tech-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.tech-text-top {
+    padding: 15px;
+    border-bottom: 2px solid #f08a5d;
+}
+
+.red-white-title {
+    color: #fff;
+    background-color: #b83b5e;
+    text-align: center;
+}
+
+.featured-projects-section {
+    padding: 40px;
+    background-color: #eeecda;
+}
+
+.my-thoughts-section {
+    padding: 40px;
+}
+
+
+/* SKILLS LIST  */
+
+ul {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-section {
+    padding: 40px;
+    background-color: #eeecda;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+    font-size: 13px;
+}
+
+
+.skills-lists-all {
+    
+    justify-content: space-around;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.list-of-skills-1 {
+    align-content: left;
+    width: 10%;
+    border: 2px solid tomato;
+  
+}
+
+.list-of-skills-2 {
+    align-content: right;
+    width: 10%;
+    
+    border: 2px solid tomato;
+}
+
+
+.for-more-section {
+    background-color: #f08a5d;
+    padding: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #6a2c70;
+    padding: 60px;
+    text-align: center;
+    color: white;
+}
