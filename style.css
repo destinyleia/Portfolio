@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-/* HEADER FUNCTIONS */
+/* HEADER CONTAINER WITH PIC, TITLE, TEXT and ICONS */
 
 header {
     background-image: url(https://media4.giphy.com/media/3og0ISzBpn0nNJE3Ac/giphy.gif);
@@ -69,7 +69,7 @@ header {
 .job-title h3 {
     font-size: 15px;
     font-weight: bold;
-    line-height: 0px; 
+    line-height: 0px;
     margin-block-end: 5px;
 }
 
@@ -95,18 +95,20 @@ header {
     display: inline;
 }
 
+/* RED LITTLE THING / STICK + CIRCLE */
+
 .red-thing-container {
-   display: inline-block;
+    display: inline-block;
 }
 
 .red-thing {
     display: flex;
     align-items: flex-end;
     shape-outside: inset(50%);
-    margin-bottom: 12px;    
+    margin-bottom: 12px;
 }
 
-.long {
+.stick {
     margin-bottom: auto;
     width: 40px;
     height: 3px;
@@ -230,9 +232,7 @@ ul {
     text-align: center;
     margin: auto;
     justify-content: space-around;
-    
 }
-
 
 .skills-lists-all {
     justify-content: space-around;
