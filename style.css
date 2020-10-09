@@ -43,7 +43,7 @@ header {
 
 .name {
     font-size: x-small;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     padding-right: 80px;
 }
@@ -78,14 +78,14 @@ header {
     border-radius: 50%;
     border: 3px solid white;
     right: 30px;
-    top: 320px;
+    top: 330px;
     position: absolute;
 }
 
 /* ABOUT ME  */
 
 .about-me-section {
-    padding: 40px;
+    padding: 50px;
     background-color: #eeecda;
     justify-content: space-around;
 }
@@ -135,15 +135,19 @@ header {
 
 .tech-text-top {
     padding: 15px;
-    border-bottom: 2px solid #f08a5d;
 }
 
 /* RED-WHITE TEXT TITLE  */
 
-.red-white-title {
+.text-title {
     color: #fff;
     background-color: #b83b5e;
     text-align: center;
+}
+
+/* TEXT COLOR  */
+.color {
+    color: #b83b5e;
 }
 
 /* FEATURED PROJECTS  */
@@ -155,6 +159,7 @@ header {
 
 .project-weather-app {
     padding-bottom: 50px;
+    align-content: center;
 }
 
 .project-business-app {
@@ -170,7 +175,6 @@ header {
     text-align: center;
     font-size: 13px;
     justify-content: space-around;
-    text-align: left;
 }
 
 .featured-projects-text p {
@@ -187,6 +191,10 @@ header {
     text-align: center;
     width: 65px;
     color: white;
+}
+
+.tags-color {
+    background-color: #f08a5d;
 }
 
 /* MY THOUGHTS  */
@@ -273,4 +281,275 @@ footer {
     padding: 60px;
     text-align: center;
     color: white;
+}
+
+/* MEDIA QUERIES / TABLET VIEW  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    header {
+        background-image: url(/images/backgrund.gif);
+        background-size: cover;
+        width: 100%;
+        height: 340px;
+    }
+
+    .header-all {
+        padding-top: 80px;
+    }
+    .icons-social-media-header {
+        position: absolute;
+        display: flex;
+        top: 40%;
+        right: 16%;
+    }
+    .portfolio {
+        font-size: medium;
+        padding-left: 15%;
+    }
+    .name {
+        font-size: medium;
+        padding-right: 34%;
+    }
+    .job-title h2 { 
+        font-size: 60px;
+        line-height: 45px;
+        padding-left: 10%;
+    }
+    .job-title h3 {
+        font-size: 23px;
+        line-height: 2px;
+        padding-left: 10%;
+    }
+
+    .picture-of-dess {
+        width: 200px;
+        right: 10%;
+        top: 55%;
+    }
+    
+    .about-me-section {
+        background-color: #fcdada;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .featured-projects-section {
+        background-color: #fcdada;
+    }
+    .skills-section {
+        background-color: #fcdada;
+    }
+    .for-more-section {
+        background-color: #5c969e;
+    }
+    footer {
+        background-color: #3d7ea6;
+    }
+    .text-title {
+        color: #fff;
+        background-color: #ffa5a5;
+    }
+    .project-weather-app {
+        padding-left: 5%;
+        padding-right: 0%;
+        padding-bottom: 50px;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .project-business-app {
+        padding-left: 5%;
+        padding-right: 0%;
+        padding-bottom: 60px;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .project-cluedo {
+        padding-left: 30%;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .project-food {
+        padding-left: 30%;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .blog {
+        padding-left: 30%;
+        padding-right: 30%;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .more-thoughts-section {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .my-thoughts-text p {
+        color: #5c969e;
+    }
+    .more-thoughts p {
+        
+        color: #5c969e;
+    }
+    .list-of-skills-1 h2, .list-of-skills-2 h2 {
+        color: #5c969e;
+        font-size: 18px;
+    }
+
+    .color {
+        color: #5c969e;
+    }
+
+    .tags-color {
+        background-color: #3d7ea6;
+    }
+
+    .tech-text-top {
+        padding-left: 40px;
+        padding-right: 40px;
+        
+    }
+
+    .stick {
+        background: #3d7ea6;;
+    }
+    
+    .circle {
+        background: #3d7ea6;;
+    }
+}
+
+/* MEDIA QUERIES / WEBSITE VIEW */
+
+@media only screen and (min-device-width: 1024px) {
+
+    header {
+        background-image: url(/images/backgrund.gif);
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+       
+    }
+    .icons-social-media-header {
+        position: absolute;
+        display: flex;
+        top: 50%;
+        right: 21%;
+    }
+    .portfolio {
+        font-size: medium;
+        padding-left: 12%;
+    }
+    .name {
+        font-size: medium;
+        padding-right: 47%;
+    }
+    .job-title h2 { 
+        font-size: 80px;
+        line-height: 60px;
+        padding-left: 10%;
+    }
+    .job-title h3 {
+        font-size: 25px;
+        line-height: 2px;
+        padding-left: 10%;
+    }
+
+    .picture-of-dess {
+        width: 200px;
+        right: 16%;
+        top: 60%;
+    }
+    
+    .about-me-section {
+        padding-top: 7%;
+        background-color: #fcdada;
+        padding-left: 22%;
+        padding-right: 22%;
+        padding-bottom: 7%;
+    }
+
+    .tech-text-top {
+        border-left: 20%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .featured-projects-section {
+        background-color: #fcdada;
+    }
+    .skills-section {
+        background-color: #fcdada;
+    }
+    .for-more-section {
+        background-color: #5c969e;
+    }
+    footer {
+        background-color: #3d7ea6;
+    }
+    .text-title {
+        color: #fff;
+        background-color: #ffa5a5;
+    }
+    .project-weather-app {
+        padding-left: 12%;
+        padding-right: 0%;
+        padding-bottom: 50px;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .project-business-app {
+        padding-left: 12%;
+        padding-right: 0%;
+        padding-bottom: 60px;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .project-cluedo {
+        padding-left: 30%;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .project-food {
+        padding-left: 30%;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .blog {
+        padding-left: 30%;
+        padding-right: 30%;
+        display: inline-block;
+        flex-direction: row;
+    }
+    .more-thoughts-section {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    .my-thoughts-text p {
+        color: #5c969e;
+    }
+    .more-thoughts p {
+        
+        color: #5c969e;
+    }
+    .list-of-skills-1 h2, .list-of-skills-2 h2 {
+        color: #5c969e;
+        font-size: 18px;
+    }
+
+    .color {
+        color: #5c969e;
+    }
+
+    .tags-color {
+        background-color: #3d7ea6;
+    }
+
+    .stick {
+        background: #3d7ea6;;
+    }
+    
+    .circle {
+        background: #3d7ea6;;
+    }
+
+
 }
