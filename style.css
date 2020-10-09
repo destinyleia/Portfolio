@@ -536,7 +536,8 @@ footer {
     }
 
     .color {
-        color: #5c969e;
+        color: #3d7ea6;
+        font-weight: bolder;
     }
 
     .tags-color {
