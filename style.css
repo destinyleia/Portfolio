@@ -383,19 +383,19 @@ footer {
         padding-right: 30%;
     }
     .my-thoughts-text p {
-        color: #5c969e;
+        color: #2C4F68;
     }
     .more-thoughts p {
         
-        color: #5c969e;
+        color: #2C4F68;
     }
     .list-of-skills-1 h2, .list-of-skills-2 h2 {
-        color: #5c969e;
+        color: #2C4F68;
         font-size: 18px;
     }
 
     .color {
-        color: #5c969e;
+        color: #2C4F68;
     }
 
     .tags-color {
@@ -524,19 +524,19 @@ footer {
         padding-right: 30%;
     }
     .my-thoughts-text p {
-        color: #5c969e;
+        color: #2C4F68;;
     }
     .more-thoughts p {
         
-        color: #5c969e;
+        color: #2C4F68;
     }
     .list-of-skills-1 h2, .list-of-skills-2 h2 {
-        color: #5c969e;
+        color: #2C4F68;;
         font-size: 18px;
     }
 
     .color {
-        color: #3d7ea6;
+        color: #2C4F68;
         font-weight: bolder;
     }
 
@@ -553,4 +553,46 @@ footer {
     }
 
 
+}
+
+@media only screen and (min-device-width: 1600px) {
+    .portfolio {
+        font-size: medium;
+        padding-left: 11%;
+    }
+    .name {
+        font-size: medium;
+        padding-right: 65%;
+    }
+
+    .icons-social-media-header {
+        right: 19%;
+    }
+
+    .project-weather-app {
+        padding-left: 20%;
+        padding-right: 0%;
+        padding-bottom: 50px;
+    }
+    .project-business-app {
+        padding-left: 20%;
+        padding-right: 0%;
+    }
+
+    .project-cluedo {
+        padding-left: 40%;
+    }
+
+    .project-food {
+        padding-left: 40%;
+    }
+    
+    .blog {
+        padding-left: 40%;
+        padding-right: 30%;
+    }
+    .more-thoughts-section {
+        padding-left: 40%;
+        padding-right: 30%;
+    }
 }
